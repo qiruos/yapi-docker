@@ -1,0 +1,1 @@
+docker build . -t ddkl/yapi:1.9.3
