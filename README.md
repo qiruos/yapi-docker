@@ -5,6 +5,11 @@
 bash build.sh
 ```
 
+## init
+``` bash
+bash init.sh
+```
+
 ## run
 ``` bash
 bash run.sh
@@ -14,3 +19,4 @@ bash run.sh
 ``` bash
 bash stop.sh
 ```
+

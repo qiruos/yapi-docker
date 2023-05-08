@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 . .env
 docker run -d \
    --name ${server} \
@@ -8,4 +9,4 @@ docker run -d \
    -p 3000:3000 \
    -v $PWD/config.json:/yapi/config.json \
    ddkl/yapi:1.9.3 \
-   node server/app.js
+   npm run install-server

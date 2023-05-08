@@ -1,4 +1,5 @@
 {
+   "closeRegister":false,
    "port": "3000",
    "adminAccount": "ddkl@changeme.com",
    "timeout":120000,
