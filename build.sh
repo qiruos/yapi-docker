@@ -1,2 +1,5 @@
 #!/usr/bin/env bash
-docker build . -t ddkl/yapi:1.9.3
+
+. .env
+
+docker build . -t ddkl/${server}
