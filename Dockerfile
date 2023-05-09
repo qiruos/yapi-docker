@@ -3,8 +3,7 @@ WORKDIR /yapi
 ENV VERSION=1.9.3
 RUN wget https://github.com/YMFE/yapi/archive/tags/v${VERSION}.zip
 RUN unzip v${VERSION}.zip && mv yapi-tags-v${VERSION} vendors
-RUN cd /yapi/vendors && cp config_example.json ../config.json && npm install --production --registry https://registry.npmmirror.com
-RUN npm i yapi-plugin-add-user
+RUN cd /yapi/vendors && cp config_example.json ../config.json && npm i --production --registry https://registry.npmmirror.com yapi-plugin-add-user && npm install --production --registry https://registry.npmmirror.com
 
 FROM node:12-alpine
 LABEL MAINTAINER kongle.duan@deeperse.com

@@ -1,5 +1,4 @@
 {
-   "closeRegister":false,
    "port": "3000",
    "adminAccount": "ddkl@changeme.com",
    "timeout":120000,
@@ -7,8 +6,8 @@
      "servername": "mongo",
      "DATABASE": "yapi",
      "port": 27017,
-     "user": "changeme",
-     "pass": "changeme",
+     "user": "yapi",
+     "pass": "yapi2023",
      "authSource": "admin"
    },
    "mail": {
@@ -20,5 +19,7 @@
       "user": "devops@changeme.com",
       "pass": "changeme"
     }
-  }
+  },
+  "closeRegister":true,
+  "plugins": [{"name": "add-user"}]
  }

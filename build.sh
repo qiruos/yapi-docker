@@ -2,4 +2,4 @@
 
 . .env
 
-docker build . -t ddkl/${server}
+docker build . -t ddkl/yapi:${version}
