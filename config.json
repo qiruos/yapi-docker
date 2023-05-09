@@ -20,6 +20,5 @@
       "pass": "changeme"
     }
   },
-  "closeRegister":true,
-  "plugins": [{"name": "add-user"}]
+  "closeRegister":true
  }
